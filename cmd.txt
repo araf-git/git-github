@@ -1,0 +1,24 @@
+git status -> status of the project
+git init -> on any project i need to run this one time
+ls -> list all files
+ls -a -> deep list all files
+cd .git -> go to .git folder
+cd .. -> go to one level up
+ls -la
+rm -rf .git -> delete .git folder
+git add file1.txt -> untracked to staged state
+git status
+git rm --cached file1.txt -> staged to untracked
+git add . -> shortcut to stage every file available
+states: untracked <-> staged -> commited
+git default brach name is main/master
+git commit -m "This is my first commit" -> this will only commit the staged files. untracked files wont be commited
+git log -> to know the version of commit
+
+
+
+
+vi file1.txt -> creates a file named file1.txt on first run
+press i -> to edit
+press esc -> to stop editing
+type :wq! and hit enter -> to force exit the file

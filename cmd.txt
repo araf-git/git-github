@@ -43,8 +43,10 @@ b1 (main copy) status s2
 b2 (main copy) status s3
 if i merge b1 on main then main status s2.
 now if i want to merge b2 then it will cause merge conflict. cause b2 is based on s1. but current main status after merging b1 is s2.
-
-
+solution:
+1. fix and commit it
+2. abort the merge
+git merge --abort
 
 // merge
 at first go to main/master branch. then merge

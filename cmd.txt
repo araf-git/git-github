@@ -1,3 +1,13 @@
+// file system
+vi file1.txt -> creates a file named file1.txt on first run
+press i -> to edit
+press esc -> to stop editing
+type :wq! and hit enter -> to force exit the file
+
+
+
+
+// git basics
 git status -> status of the project
 git init -> on any project i need to run this command one time. it will create a .git private folder in project
 ls -> list all files
@@ -18,6 +28,8 @@ modified files wont be commited. you need to run git add filename and then commi
 git show commitID -> to know details about a particular commit
 git log -n 1 -> will show only the top 1 log
 git log --committer="araf-git" -> will show all commits commited by araf-git
+
+
 
 
 
@@ -51,13 +63,8 @@ git merge --abort
 
 
 
+
 // merge
 at first go to main/master branch. then merge
 git merge b1 -> it will merge b1 to main/master
 
-
-
-vi file1.txt -> creates a file named file1.txt on first run
-press i -> to edit
-press esc -> to stop editing
-type :wq! and hit enter -> to force exit the file

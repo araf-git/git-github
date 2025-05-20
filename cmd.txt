@@ -1,5 +1,5 @@
 git status -> status of the project
-git init -> on any project i need to run this command one time
+git init -> on any project i need to run this command one time. it will create a .git private folder in project
 ls -> list all files
 ls -a -> deep list all files
 cd .git -> go inside .git folder (one level down)

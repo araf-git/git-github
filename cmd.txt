@@ -17,9 +17,22 @@ git log -> to know the version of commit
 modified files wont be commited. you need to run git add filename and then commit to commit the modified files
 git show commitID -> to know details about a particular commit
 git log -n 1 -> will show only the top 1 log
+git log --committer="araf-git" -> will show all commits commited by araf-git
 
 
 
+// branching
+x applicaton deployed on production. if i want to change anything, then i have to 
+stop applicaton -> make changes -> test -> deploy again
+but stopping it will cause errors and the applicaton wont work until deployed again
+its not a good idea
+make a copy of production applicaton and make changes on that copy independently. after changing, deploy the copy. this strategy is called branching
+after branching, merge it on the main/master branch
+git branch -> find the current branch
+git branch b1 -> create new b1 branch
+* master -> means i am using this branch
+git branch -d b1 -> delete b1 branch
+git checkout b1 -> from main, swith to b1
 
 vi file1.txt -> creates a file named file1.txt on first run
 press i -> to edit

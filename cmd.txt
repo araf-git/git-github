@@ -29,11 +29,20 @@ its not a good idea
 make a copy of production applicaton and make changes on that copy independently. after changing, deploy the copy. this strategy is called branching
 after branching, merge it on the main/master branch
 git branch -> find the current branch
-git branch b1 -> create new b1 branch
+git branch b1 -> create new b1 branch. b1 will have a complete copy of master/main branch files
 * master -> means i am using this branch
 git branch -d b1 -> delete b1 branch
 git checkout b1 -> from main, swith to b1
 git checkout master -> from b1, swith to master
+shortcut: git checkout -b b2 -> creates b2 branch. after creating it also checkouts b2
+
+
+// merge conflict
+master/main status s1
+b1 (main copy) status s2
+b2 (main copy) status s3
+if i merge b1 on main then main status s2.
+now if i want to merge b2 then it will cause merge conflict. cause b2 is based on s1. but current main status after merging b1 is s2.
 
 
 

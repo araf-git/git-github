@@ -33,6 +33,10 @@ git branch b1 -> create new b1 branch
 * master -> means i am using this branch
 git branch -d b1 -> delete b1 branch
 git checkout b1 -> from main, swith to b1
+git checkout master -> from b1, swith to master
+
+
+
 
 vi file1.txt -> creates a file named file1.txt on first run
 press i -> to edit

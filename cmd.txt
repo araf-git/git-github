@@ -11,7 +11,7 @@ git status
 git rm --cached file1.txt -> staged to untracked
 git add . -> shortcut to stage every file available
 states: untracked <-> staged -> commited
-git default brach name is main/master
+git default branch name is main/master
 git commit -m "This is my first commit" -> this will only commit the staged files. untracked files wont be commited
 git log -> to know the version of commit
 modified files wont be commited. you need to run git add filename and then commit to commit the modified files
@@ -44,6 +44,11 @@ b2 (main copy) status s3
 if i merge b1 on main then main status s2.
 now if i want to merge b2 then it will cause merge conflict. cause b2 is based on s1. but current main status after merging b1 is s2.
 
+
+
+// merge
+at first go to main/master branch. then merge
+git merge b1 -> it will merge b1 to main/master
 
 
 

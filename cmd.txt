@@ -68,3 +68,18 @@ git merge --abort
 at first go to main/master branch. then merge
 git merge b1 -> it will merge b1 to main/master
 
+
+
+// remote = github.com
+// local = git
+git clone https://github.com/araf-git/git-gitHub.git -> clone github repository in local
+if i clone a git repository, then that repository is already git initialized. i dont need to run git init
+// run the below commands inside the cloned folder
+git branch -> will only show local main/master branch that i cloned
+git branch -a -> will also show remote branches
+git remote -v -> shows if i am connected to a remote repository
+
+transfer code from local to remote(github.com)
+1. first create a repository in github.com
+2. connect git and github repository
+3. push the code

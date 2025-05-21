@@ -102,3 +102,13 @@ git pull -> internally runs git fetch and git merge
 git add .
 git commit -m "Update message"
 git push
+
+
+
+// warning
+remote: This repository moved. Please use the new location:    
+remote:   https://github.com/araf-git/git-github.git
+To https://github.com/araf-git/git-gitHub.git
+// solve
+Run this to update your remote to the new location:
+git remote set-url origin https://github.com/araf-git/git-github.git

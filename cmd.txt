@@ -24,7 +24,7 @@ states: untracked <-> staged -> commited
 git default branch name is main/master
 git commit -m "This is my first commit" -> this will only commit the staged files. untracked files wont be commited
 git log -> to know the version of commit
-modified files wont be commited. you need to run git add filename and then commit to commit the modified files
+modified files wont be commited. you need to re-run git add filename and then commit to commit the modified files
 git show commitID -> to know details about a particular commit
 git log -n 1 -> will show only the top 1 log
 git log --committer="araf-git" -> will show all commits commited by araf-git

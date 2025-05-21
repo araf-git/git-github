@@ -83,6 +83,22 @@ transfer code from local to remote(github.com)
 1. first create a repository in github.com
 2. connect git and github repository
 3. push the code
-git remote add origin https://github.com/araf-git/git-gitHub.git
+git remote add origin https://github.com/araf-git/git-github.git
 git branch -M main
 git push -u origin main
+
+
+// git pull -> bring remote changes to local
+way 1
+1. git fetch origin
+2. git rebase origin/main
+way 2
+git pull -> internally runs git fetch and git merge
+
+
+
+
+// how to update after pushing to github.com
+git add .
+git commit -m "Update message"
+git push

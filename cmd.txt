@@ -24,11 +24,11 @@ states: untracked <-> staged -> commited
 git default branch name is main/master
 git commit -m "This is my first commit" -> this will only commit the staged files. untracked files wont be commited
 git log -> to know the version of commit
-modified files wont be commited. you need to re-run git add filename and then commit to commit the modified files
+modified files wont be commited. you need to re-run git add filename and then commit again to commit the modified files
 git show commitID -> to know details about a particular commit
 git log -n 1 -> will show only the top 1 log
 git log --committer="araf-git" -> will show all commits commited by araf-git
-
+Press q to exit the git log view in the terminal.
 
 
 
@@ -73,7 +73,7 @@ git merge b1 -> it will merge b1 to main/master
 // remote = github.com
 // local = git
 git clone https://github.com/araf-git/git-gitHub.git -> clone github repository in local
-if i clone a git repository, then that repository is already git initialized. i dont need to run git init
+if i clone a github repository, then that repository is already git initialized. i dont need to run git init
 // run the below commands inside the cloned folder
 git branch -> will only show local main/master branch that i cloned
 git branch -a -> will also show remote branches

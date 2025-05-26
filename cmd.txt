@@ -72,7 +72,8 @@ git merge b1 -> it will merge b1 to main/master
 
 // remote = github.com
 // local = git
-git clone https://github.com/araf-git/git-gitHub.git -> clone github repository in local
+// clone github repository in local
+git clone https://github.com/araf-git/git-gitHub.git 
 if i clone a github repository, then that repository is already git initialized. i dont need to run git init
 // run the below commands inside the cloned folder
 git branch -> will only show local main/master branch that i cloned
